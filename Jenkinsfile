@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('First Stage') {
       steps {
-        build(job: 'TestMask', quietPeriod: 1)
+        build 'TestMask'
       }
     }
   }
